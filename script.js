@@ -56,7 +56,7 @@ filters.forEach(  filter =>{
         grayscale(${grayscale.value})
         blur(${blur.value}px)
         hue-rotate(${hueRotate.value}deg)
-        thermal(${thermal.value}%)
+
         `
     })
 })
