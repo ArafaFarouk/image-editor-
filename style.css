@@ -46,7 +46,7 @@ body{
 .filters ul,.filters ul li {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 10px;
     direction: rtl;
 }
 .filters ul li  label{
@@ -59,13 +59,13 @@ body{
 }
 .filters ul li a, span {
     color: #fff;
-    padding:10px 20px;
+    padding:5px 10px;
     background: #060;
     cursor: pointer; 
 }
 @media screen and (max-width:650px) {
     .container{
         grid-template-columns: 1fr;
-        gap: 50px;
+        gap: 30px;
     }
 }
