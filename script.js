@@ -5,7 +5,7 @@ let sepia = document.getElementById("sepia");
 let grayscale = document.getElementById("grayscale");
 let blur = document.getElementById("blur");
 let hueRotate = document.getElementById("hue-rotate");
-let thermal = document.getElementById("thermal");
+// let thermal = document.getElementById("thermal");
 
 
 
@@ -56,7 +56,6 @@ filters.forEach(  filter =>{
         grayscale(${grayscale.value})
         blur(${blur.value}px)
         hue-rotate(${hueRotate.value}deg)
-        thermal(${thermal.value}%)
         `
     })
 })
